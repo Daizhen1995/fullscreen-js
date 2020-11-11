@@ -1,4 +1,4 @@
-# fullscreen-js
+# full-screen-js
 
 a javascript library for fullscreen
 
@@ -6,27 +6,27 @@ a javascript library for fullscreen
 
 ### Install
 
-npm install --save fullscreen-js or use dist/fullscreen.min.js
+npm install --save full-screen-js or use dist/full-screen.min.js
 
 ### Usage
 
 For ES6:
 
 ```javascript
-import { enterFullscreen, exitFullscreen, toggleFullscreen } from 'fullscreen-js'
+import { enterFullscreen, exitFullscreen, toggleFullscreen } from 'full-screen-js'
 ```
 
 For standalone usage:
 
 ```html
-<script src="../dist/fullscreen.min.js"></script>
+<script src="../dist/full-screen.min.js"></script>
 ```
 
 ### Sample
 
 In ES6:
 ```javascript
-import { enterFullscreen, exitFullscreen, toggleFullscreen } from 'fullscreen-js'
+import { enterFullscreen, exitFullscreen, toggleFullscreen } from 'full-screen-js'
 
 enterFullscreen() // The entire document enters the full screen
 enterFullscreen(document.getElementById('div'))
@@ -43,7 +43,7 @@ In html:
     父容器全屏/退出全屏
   </button>
 </div>
-<script src="../dist/fullscreen.min.js"></script>
+<script src="../dist/full-screen.min.js"></script>
 <script>
   function toggleFullScreen(element) {
     fullscreenJS.toggleFullscreen(element)
