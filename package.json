@@ -1,6 +1,6 @@
 {
   "name": "request-fullscreen-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a javascript library for fullscreen",
   "main": "dist/request-fullscreen.js",
   "module": "dist/request-fullscreen-es.js",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Daizhen1995/fullscreen-js.git"
+    "url": "https://github.com/Daizhen1995/request-fullscreen-js.git "
   },
   "scripts": {
     "build": "rollup -c build/rollup.config.dev.js",
