@@ -5,9 +5,9 @@ const babel = require('rollup-plugin-babel')
 const { terser } = require('rollup-plugin-terser')
 
 const inputPath = path.resolve(__dirname, '../src/index.js')
-const umdOutputPath = path.resolve(__dirname, '../dist/full-screen.min.js')
-const cjsOutputPath = path.resolve(__dirname, '../dist/full-screen-cjs.min.js')
-const esOutputPath = path.resolve(__dirname, '../dist/full-screen-es.min.js')
+const umdOutputPath = path.resolve(__dirname, '../dist/request-fullscreen.min.js')
+const cjsOutputPath = path.resolve(__dirname, '../dist/request-fullscreen-cjs.min.js')
+const esOutputPath = path.resolve(__dirname, '../dist/request-fullscreen-es.min.js')
 
 const banner = ['fullscreenJS', 'a js library for fullscreen']
 const footer = ['powerd by Zyx Daizhen', 'copyright 2020']

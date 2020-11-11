@@ -1,9 +1,9 @@
 {
-  "name": "full-screen-js",
+  "name": "request-fullscreen-js",
   "version": "1.0.0",
   "description": "a javascript library for fullscreen",
-  "main": "dist/full-screen.js",
-  "module": "dist/full-screen-es.js",
+  "main": "dist/request-fullscreen.js",
+  "module": "dist/request-fullscreen-es.js",
   "files": [
     "dist/*.js"
   ],

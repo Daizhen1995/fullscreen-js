@@ -4,9 +4,9 @@ const resolve = require('rollup-plugin-node-resolve')
 const babel = require('rollup-plugin-babel')
 
 const inputPath = path.resolve(__dirname, '../src/index.js')
-const umdOutputPath = path.resolve(__dirname, '../dist/full-screen.js')
-const cjsOutputPath = path.resolve(__dirname, '../dist/full-screen-cjs.js')
-const esOutputPath = path.resolve(__dirname, '../dist/full-screen-es.js')
+const umdOutputPath = path.resolve(__dirname, '../dist/request-fullscreen.js')
+const cjsOutputPath = path.resolve(__dirname, '../dist/request-fullscreen-cjs.js')
+const esOutputPath = path.resolve(__dirname, '../dist/request-fullscreen-es.js')
 
 const banner = ['fullscreenJS', 'a js library for fullscreen']
 const footer = ['powerd by Zyx Daizhen', 'copyright 2020']
