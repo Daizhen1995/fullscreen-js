@@ -1,6 +1,6 @@
 /**
  * ============================
- * zex-fullscreen
+ * fullscreenJS
  * a js library for fullscreen
  * ============================
  **/

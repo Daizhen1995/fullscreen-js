@@ -4,11 +4,11 @@ const resolve = require('rollup-plugin-node-resolve')
 const babel = require('rollup-plugin-babel')
 
 const inputPath = path.resolve(__dirname, '../src/index.js')
-const umdOutputPath = path.resolve(__dirname, '../dist/zex-fullscreen.js')
-const cjsOutputPath = path.resolve(__dirname, '../dist/zex-fullscreen-cjs.js')
-const esOutputPath = path.resolve(__dirname, '../dist/zex-fullscreen-es.js')
+const umdOutputPath = path.resolve(__dirname, '../dist/fullscreen.js')
+const cjsOutputPath = path.resolve(__dirname, '../dist/fullscreen-cjs.js')
+const esOutputPath = path.resolve(__dirname, '../dist/fullscreen-es.js')
 
-const banner = ['zex-fullscreen', 'a js library for fullscreen']
+const banner = ['fullscreenJS', 'a js library for fullscreen']
 const footer = ['powerd by Zyx Daizhen', 'copyright 2020']
 
 export default {
@@ -17,7 +17,7 @@ export default {
     {
       file: umdOutputPath,
       format: 'umd',
-      name: 'zexFullscreen',
+      name: 'fullscreenJS',
       banner: commnet(...banner),
       footer: commnet(...footer),
     },

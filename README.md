@@ -43,10 +43,10 @@ In html:
     父容器全屏/退出全屏
   </button>
 </div>
-<script src="../dist/zex-fullscreen.min.js"></script>
+<script src="../dist/fullscreen.min.js"></script>
 <script>
   function toggleFullScreen(element) {
-    zexFullscreen.toggleFullscreen(element)
+    fullscreenJS.toggleFullscreen(element)
   }
 
   window.addEventListener('fullscreen-change', ({ detail: { status } }) => {

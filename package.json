@@ -2,8 +2,8 @@
   "name": "fullscreen-js",
   "version": "1.0.0",
   "description": "a javascript library for fullscreen",
-  "main": "dist/zex-fullscreen.js",
-  "module": "dist/zex-fullscreen-es.js",
+  "main": "dist/fullscreen.js",
+  "module": "dist/fullscreen-es.js",
   "files": [
     "dist/*.js"
   ],
