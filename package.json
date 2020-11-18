@@ -4,6 +4,7 @@
   "description": "a javascript library for fullscreen",
   "main": "dist/request-fullscreen.js",
   "module": "dist/request-fullscreen-es.js",
+  "types": "dist/request-fullscreen.d.ts",
   "files": [
     "dist/*.js"
   ],
