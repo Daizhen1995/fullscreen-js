@@ -2,6 +2,17 @@
 
 a javascript library for fullscreen
 
+## Contributors
+
+This project exists thanks to all the people who contribute.
+
+<div style="margin-bottom: 10px;">
+  <a href="/geopic">
+                <strong style="color: #40c9c6;">geopic</strong>
+                <span class="text-gray">George Pickering</span>
+  </a>
+</div>
+
 ## Quickstart
 
 ### Install
@@ -25,6 +36,7 @@ For standalone usage:
 ### Sample
 
 In ES6:
+
 ```javascript
 import { enterFullscreen, exitFullscreen, toggleFullscreen } from 'request-fullscreen-js'
 
